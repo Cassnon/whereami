@@ -1,0 +1,282 @@
+*{
+	margin:0;
+	padding:0;
+}
+.btn-primary{	
+	background-color:#5a8696;
+	border-color:#929E9E;
+	height:30px;
+	width:70px;
+}
+
+#import #importdeclare
+{  
+	
+	width:500px;
+	height:160px;	
+		
+}
+
+
+#imp_bmap,#imp_smap,#imp_outmap{
+	position:relative;
+	margin:0px!important ;
+	width:400px;
+	height:50px;		
+}
+
+#imp_bmap div,#imp_smap div,#imp_outmap div
+{   margin-left:104px!important;
+	margin-top:0px!important;
+    position:absolute;	
+}
+
+#textfield_bmap,#textfield_smap,#textfield_outmap {
+	float:left!important;
+	margin-right:0px!important
+}
+
+
+#imp_bmap span,#imp_smap span,#imp_outmap span{float:left;height:50px}
+
+#imp_bmap_box,#imp_smap_box,#imp_outmap_box{float:right; width:450px; height:50px}
+
+#import span,#importdeclare span{float:left;height:50px;margin-top:15px}
+#site_out{width:152px;margin-left:59px;height:25px}
+#site{width:50px}
+#import div,#importdeclare div
+{   margin-left:50px!important;
+	margin-top:5px!important;
+    position:absolute;	
+}	
+#uploadmap,#uploadmap_bmap,#uploadmap_smap,#uploadmap_outmap,#uploaddeclare
+{
+	width:250px;
+	height:26px;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	
+	
+}
+
+#add,#addbuildingdiv,#modifyarea,#editsitediv,#addsite_outdiv,#editsite_outdiv{
+	margin:50px;
+	width:500px;
+	height:500px;
+}		
+/*#addbtn,*/)
+#modifybtn,#modifysite_outbtn{
+	width:100px;
+	height:40px;
+	margin-left:300px;
+}
+
+#modifysitebtn{
+	width:100px;
+	height:40px;
+	margin-left:150px;
+}
+#siteinfo{
+	margin:50px auto;
+    border-radius: 15px 50px;
+    border: 5px solid #6597a7;
+    padding: 30px 50px; 
+    width: 500px;
+    height: 150px; 
+    position:relative;
+}
+
+#siteinfo .item{
+	height:40px;
+	margin:20px auto;
+	text-align:left;
+	line-height:40px;
+	font-size:20px;
+}
+
+#siteinfo input[type="text"]{
+	height:25px;
+	border-radius:5px 5px 5px 5px;
+	border:0px;
+	padding-left:5px;
+	vertical-align:middle;
+	font-size:15px;
+	width:100%;
+	line-height:25px;
+}
+
+#siteinf{
+	display:inline-block;
+	padding-right:20px;
+	padding-left:20px;
+	position:absolute;
+	top:-25px;
+	left:20px;
+	font-size: 30px;
+	background:#f1e8dc;
+}
+
+#loadinfo{
+	border-radius: 15px 50px;
+    border: 5px solid #6597a7;
+    height:200px;	
+    margin:50px auto; 
+    width:500px;
+    padding:30px 50px;
+    position:relative;
+}
+
+#loadinfo .item{
+	height:90px;
+	margin:20px auto;
+	text-align:left;
+	line-height:40px;
+	font-size:20px;
+}
+
+#areainf{
+	display:inline-block;
+	padding-right:20px;
+	padding-left:20px;
+	position:absolute;
+	top:-25px;
+	left:20px;
+	font-size: 30px;
+	background:#f1e8dc;
+}
+
+#loadinfo select{
+	width:100%;
+}
+#loadinfo div{height:40px}
+#buildcell span{position: absolute;margin-left:144px}
+#buildchncell span{position: absolute;margin-left:67px}
+
+
+#langs_selected label{
+	background-color:#c8dadd;
+	margin-right:10px;
+	padding:0px 10px
+}
+
+#delarea,#delbuilding,#editarea,#editbuilding,#addbuilding,#addarea,#delsite_out,#editsite_out,#addsite_out,#editsite
+{height:25px;width:25px;padding:2px;background-color:#e16c75;border:none}
+
+.choose{width:58px;padding-left:5px;height:30px;padding-top:3px;}
+#textfield{width:180px}
+.t{float:right; width:400px; height:50px}
+#savebtn{margin-left:1100px;}
+#ok{width:100px}
+#delalert{margin:20px 20px}
+#alertbtn{margin: 0 auto; width:150px;}
+#alertbtn a{margin-left:10px}
+#savedeclare{width:45px;margin-left:2px}
+
+#loadmap{
+	float:left;
+}
+#addbtn{
+	float:right;
+}
+#img_amap_text{
+	margin-right:30px!important
+}
+#mapdiv
+{
+	width: 600px;
+	height: 450px;
+	z-index:-1;
+	overflow:scroll;
+	padding:0;
+	margin:0;
+}
+#center_ok{
+	position:absolute;
+	top:770px;
+	left:875px;
+	width:56px
+	
+}
+
+#loadoutmap{
+	float:right;
+	margin-right:47px;
+	height:26px;
+	padding-top: 2px;
+	
+}
+
+#saveBuildingbtn{
+	margin-left:200px;
+}
+
+.select_label{
+	display:inline-block;
+	width:25%;
+}
+.select_select{
+	display:inline-block;
+	width:50%;
+}
+.container{
+	min-height:100%;
+	position:relative;
+}
+#main1{
+	padding-bottom:40px;
+}
+#footer{
+	position:absolute;
+	bottom:0;
+	height:40px;
+	width:100%;
+}
+
+.line1{
+	height:60px;
+	width:100%;
+}
+.line2{
+	height:40px;
+	width:100%;
+}
+label{
+	padding:0;
+	margin:0;
+}
+.check{
+	display:inline-block;
+	width:30%;
+	padding-right:2%;
+	padding-top:10px;
+	float:left;
+}
+.line1 select,.line2 select{
+	width:90%;
+	height:20px;
+}
+.line1 input[type="text"],.line2 input[type="text"]{
+	width:90%;
+	height:20px;
+}
+
+.line1 input[type="checkbox"],.line2 input[type="checkbox"]{
+	width:auto;
+}
+.line1 input[type="radio"],.line2 input[type="radio"]{
+	width:auto;
+}
+#delbuildingalert,#delalert{
+	padding:10px 50px;
+	text-align:center;
+}
+#buildingalertbtn,#alertbtn{
+	width:100%;
+	padding:0px 50px;
+}
+#buildingalertbtn a,#alertbtn a{
+	display:inline-block;
+	width:50px;
+	margin-left:50px;
+	margin-right:20px;
+}

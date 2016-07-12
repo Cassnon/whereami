@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8"/>
+    <link rel="stylesheet" type = "text/css" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type = "text/css" href = "./font/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" type = "text/css" href = "./css/login.css">
+<title>Login</title>
+</head>
+<body>
+ <div id = "header">
+    	<h1>
+    	 <a id = "proLogo" href =""></a>
+    	</h1>
+  </div>
+  <form action = "login" id = "loginform" method = "post">
+  <div id = "loginbox">
+    <div id = "top"></div>
+  	<div id = "title">Log in</div>
+  	<div id ="sitediv"><span id= "sitetext">Site:</span><select id="siteselect" name = "site"></select></div>
+  	<div><input id = "username" name = "username" placeholder="Username"></input></div>
+  	<div><input id = "password" type="password" name = "password" placeholder="Password"></input></div>
+  	<div id = "alert"><a class = "Btn btn" ><i class="fa fa-times"></i></a>The user name or password do not match!</div>
+  	<div id = "btns">
+  		<a class = "Btn btn btn-primary" id = "login"><i class="fa fa-check-circle-o"></i>Log in</a>
+  		
+  		<!--  <label><input type="checkbox" name="remember_me" checked="checked">Remember me</inpute><span class="separator">·</span><a href="/account/begin_password_reset">Forgot password?</a></label>-->
+  	</div>
+  	<!--<div id = "bottom">
+  		<p>New to WheramiTools?<a id="login-signup-link" href="./signup.html">Sign up now »</a></p>
+  	</div>-->
+  </div>
+  </form>
+</body>
+  <script type="text/javascript" src="./jquery/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="./bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./laydate/laydate.js"></script>
+  <script type="text/javascript" src="./js/md5.js"></script>
+  <script type="text/javascript" src="./js/login.js"></script>
+</html>

@@ -1,0 +1,66 @@
+<form  id = "editsiteform" method="post"  action="editsite" enctype="multipart/form-data">
+	<div id = "editsitediv">
+		<div id = "sitename_en" class = "line">
+			<div class = "col-sm-4 col-xs-4 col-lg-4">
+				<label for = "site_en">Site Name(EN):</label>
+			</div>
+			<div class = "col-sm-8 col-xs-8 col-lg-8">
+				<input id = "site_en"  name="site_en" type = "text"></input>
+			</div>
+		</div>
+		<div id = "sitename_cn" class = "line">
+			<div class = "col-sm-4 col-xs-4 col-lg-4">
+				<label for = "site_cn">Site Name(ZH-HK):</label>
+			</div>
+			<div class = "col-sm-8 col-xs-8 col-lg-8">
+				<input id = "site_cn"  name="site_cn" type = "text"></input>
+			</div>
+		</div>
+		<div id = "apps" class = "line">
+			<div class = "col-sm-4 col-xs-4 col-lg-4">
+				<label for = "apps">Apps:</label>
+			</div>
+			<div class = "col-sm-8 col-xs-8 col-lg-8">
+				<input id = "apps"  name="apps" type = "text"></input>
+			</div>
+		</div>
+		<div id = "language" class = "line">
+			<div class = "col-sm-4 col-xs-4 col-lg-4">
+				<label for = "language">Language:</label>
+			</div>
+			<div class = "col-sm-8 col-xs-8 col-lg-8">
+				<span id = "langs_selected">
+				</span>
+				<div id = "checkboxdiv">
+					<span class = "check"><input id = "langs_en"  name="langs" type="checkbox" value="EN">English</span>
+					<span class = "check"><input id = "langs_hk"  name="langs" type="checkbox" value = "ZH-HK">ZH-HK</span>
+					<span class = "check"><input id = "langs_ch"  name="langs" type="checkbox" value = "ZH-CH">ZH-CH</span>
+				</div>
+			</div>
+		</div>
+		<div id = "default_building" class = "line">
+			<div class = "col-sm-4 col-xs-4 col-lg-4">
+				<label for = "buildinglist">Default Building:</label>
+			</div>
+			<div class = "col-sm-8 col-xs-8 col-lg-8">
+				<select id = "buildinglist" name = "buildinglist"></select>
+			</div>
+		</div>
+		<div id = "upload_map" class = "line">
+			<div class = "col-sm-4 col-xs-4 col-lg-4">
+				<label for = "img_amap_text">Upload Map:</label>
+			</div>
+			<div class = "col-sm-6 col-xs-6 col-lg-6">
+				<input id ="img_amap_text" name="img_amap_text" type = "text"></input>
+				<input id="img_amap" name ="img_amap" style="display:none" type="file">
+			</div>
+			<div class = "col-sm-2 col-xs-2 col-lg-2">
+				<a class = "Btn btn btn-primary" id = "choose_amap">Choose</a>
+			</div>
+		</div>
+		<div>
+			<a class = "Btn btn btn-primary" id = "loadmap">Map</a>
+			<a class = "Btn btn btn-primary" id = "addbtn" onclick="">Save</a>
+		</div>
+	</div>
+</form>

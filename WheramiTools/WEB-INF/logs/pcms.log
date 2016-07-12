@@ -1,0 +1,30 @@
+28 May 2015 | 17:21:53,422 | DEBUG | main | client.protocol.RequestAddCookies |     | CookieSpec selected: best-match
+28 May 2015 | 17:21:53,438 | DEBUG | main | client.protocol.RequestAuthCache |     | Auth cache not set in the context
+28 May 2015 | 17:21:53,440 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection request: [route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+28 May 2015 | 17:21:53,466 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection leased: [id: 0][route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+28 May 2015 | 17:21:53,468 | DEBUG | main | impl.execchain.MainClientExec |     | Opening connection {s}->https://143.89.37.199:10099
+28 May 2015 | 17:21:53,473 | DEBUG | main | impl.conn.HttpClientConnectionOperator |     | Connecting to /143.89.37.199:10099
+28 May 2015 | 17:21:53,799 | DEBUG | main | impl.conn.DefaultManagedHttpClientConnection |     | http-outgoing-0: Shutdown connection
+28 May 2015 | 17:21:53,799 | DEBUG | main | impl.execchain.MainClientExec |     | Connection discarded
+28 May 2015 | 17:21:53,800 | DEBUG | main | impl.conn.DefaultManagedHttpClientConnection |     | http-outgoing-0: Close connection
+28 May 2015 | 17:21:53,800 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection released: [id: 0][route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+28 May 2015 | 17:23:17,931 | DEBUG | main | client.protocol.RequestAddCookies |     | CookieSpec selected: best-match
+28 May 2015 | 17:23:17,945 | DEBUG | main | client.protocol.RequestAuthCache |     | Auth cache not set in the context
+28 May 2015 | 17:23:17,948 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection request: [route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+28 May 2015 | 17:23:17,966 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection leased: [id: 0][route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+28 May 2015 | 17:23:17,968 | DEBUG | main | impl.execchain.MainClientExec |     | Opening connection {s}->https://143.89.37.199:10099
+28 May 2015 | 17:23:17,972 | DEBUG | main | impl.conn.HttpClientConnectionOperator |     | Connecting to /143.89.37.199:10099
+28 May 2015 | 17:23:18,274 | DEBUG | main | impl.conn.DefaultManagedHttpClientConnection |     | http-outgoing-0: Shutdown connection
+28 May 2015 | 17:23:18,275 | DEBUG | main | impl.execchain.MainClientExec |     | Connection discarded
+28 May 2015 | 17:23:18,275 | DEBUG | main | impl.conn.DefaultManagedHttpClientConnection |     | http-outgoing-0: Close connection
+28 May 2015 | 17:23:18,276 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection released: [id: 0][route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+28 May 2015 | 17:24:19,946 | DEBUG | main | client.protocol.RequestAddCookies |     | CookieSpec selected: best-match
+28 May 2015 | 17:24:19,956 | DEBUG | main | client.protocol.RequestAuthCache |     | Auth cache not set in the context
+28 May 2015 | 17:24:19,958 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection request: [route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+28 May 2015 | 17:24:19,972 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection leased: [id: 0][route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+28 May 2015 | 17:24:19,973 | DEBUG | main | impl.execchain.MainClientExec |     | Opening connection {s}->https://143.89.37.199:10099
+28 May 2015 | 17:24:19,977 | DEBUG | main | impl.conn.HttpClientConnectionOperator |     | Connecting to /143.89.37.199:10099
+28 May 2015 | 17:24:20,138 | DEBUG | main | impl.conn.DefaultManagedHttpClientConnection |     | http-outgoing-0: Shutdown connection
+28 May 2015 | 17:24:20,139 | DEBUG | main | impl.execchain.MainClientExec |     | Connection discarded
+28 May 2015 | 17:24:20,139 | DEBUG | main | impl.conn.DefaultManagedHttpClientConnection |     | http-outgoing-0: Close connection
+28 May 2015 | 17:24:20,139 | DEBUG | main | impl.conn.PoolingHttpClientConnectionManager |     | Connection released: [id: 0][route: {s}->https://143.89.37.199:10099][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
